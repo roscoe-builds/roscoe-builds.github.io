@@ -114,6 +114,13 @@ main {
   /* border: 2px solid red; */
 }
 
+.portfolio-image {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-self: center;
+}
+
 .project-image {
   object-fit: cover;
   width: 100%;
@@ -127,6 +134,7 @@ main {
 
 .project-details {
   display: flex;
+  flex-direction: row;
   background-color: var(--cg-white);
   width: 30%;
   height: 500px;
